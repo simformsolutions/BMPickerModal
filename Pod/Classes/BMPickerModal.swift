@@ -98,7 +98,7 @@ public class BMPickerModal: UIViewController, UIPopoverPresentationControllerDel
     cancelButton.setTitle(self.cancelButtonTitle, for: UIControlState())
     cancelButton.frame = CGRect(x: 5, y: 5, width: 100, height: 30);
     cancelButton.titleLabel?.textAlignment = NSTextAlignment.left;
-    cancelButton.addTarget(self, action: #selector(dismiss as (Void) -> Void), for: UIControlEvents.touchUpInside);
+    cancelButton.addTarget(self, action: #selector(dismiss as () -> Void), for: UIControlEvents.touchUpInside);
     
     if self.blurEffectStyle == .dark {
       cancelButton.setTitleColor(UIColor.black, for: UIControlState())
@@ -124,7 +124,7 @@ public class BMPickerModal: UIViewController, UIPopoverPresentationControllerDel
   /**
    Saving the value selected. Triggers the onSelection closure
    */
-  func save () {
+    @objc func save () {
     if self.onSelection != nil {
       
       if self.mode == .datePicker {
@@ -195,7 +195,7 @@ public class BMPickerModal: UIViewController, UIPopoverPresentationControllerDel
   /**
    Closes the modal
    */
-  public func dismiss() {
+    @objc public func dismiss() {
     
     if self.shownInPopover {
       self.shownInPopover = false
