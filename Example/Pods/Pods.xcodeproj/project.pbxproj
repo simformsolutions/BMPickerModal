@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		252162017D01C384CB42394A5E273817 /* BMPickerModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 009A5981A466A65DB26E27668EF65EAE /* BMPickerModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2917648FB0E4EE426EA32B39EBE4DBFD /* BMPickerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75D39A323EBF249DB95A45238FB26C /* BMPickerModal.swift */; };
-		2BA3AE73F158C7F0C036E513E60F525C /* BMPickerModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A236A73B48FB0EFC83C9638B9E7E60 /* BMPickerModal-dummy.m */; };
+		252162017D01C384CB42394A5E273817 /* BMPickerModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 687ADE4CDFEFE82C261D30AFBB1522DA /* BMPickerModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2917648FB0E4EE426EA32B39EBE4DBFD /* BMPickerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DEEA4896B61EAE118DE2914D077D73 /* BMPickerModal.swift */; };
+		2BA3AE73F158C7F0C036E513E60F525C /* BMPickerModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4589BD24EB14B714E2921AF3444864 /* BMPickerModal-dummy.m */; };
 		646B9ED3D29D60C4EACA28450D0030C8 /* Pods-BMPickerModal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2B2EB59F455D35F44B5EF3CE3AC6AC /* Pods-BMPickerModal_Tests-dummy.m */; };
 		714DBBBCDC8AAE05FF279D51FDA407D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		94C5B195A4B51006CBF7076932286104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,38 +30,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009A5981A466A65DB26E27668EF65EAE /* BMPickerModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMPickerModal-umbrella.h"; sourceTree = "<group>"; };
 		0CFF4BB1358F26523E3BBAE44C9D10FC /* Pods-BMPickerModal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BMPickerModal_Example-dummy.m"; sourceTree = "<group>"; };
 		16D3328E7673811F4D528618A61E72C7 /* Pods-BMPickerModal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMPickerModal_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1C519D63440F57AC96EBCDA9DCC57AE3 /* Pods_BMPickerModal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BMPickerModal_Tests.framework; path = "Pods-BMPickerModal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2488258C07EE2BE3CDEE7FE4F676D66C /* BMPickerModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BMPickerModal.framework; path = BMPickerModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C519D63440F57AC96EBCDA9DCC57AE3 /* Pods_BMPickerModal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMPickerModal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1087B737AE4AE172293C894F4950CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2488258C07EE2BE3CDEE7FE4F676D66C /* BMPickerModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMPickerModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3012D5932C81BAE2758A81F1F4055CC0 /* Pods-BMPickerModal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMPickerModal_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		37A236A73B48FB0EFC83C9638B9E7E60 /* BMPickerModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMPickerModal-dummy.m"; sourceTree = "<group>"; };
 		411298128532CE2D87A3A71ADB740AC4 /* Pods-BMPickerModal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BMPickerModal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4686CBABB0A6B4404ECEF205EDB702AD /* Pods-BMPickerModal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BMPickerModal_Example.modulemap"; sourceTree = "<group>"; };
+		44F1F9508F06D9EB48B202E260E09232 /* BMPickerModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BMPickerModal.modulemap; sourceTree = "<group>"; };
+		4686CBABB0A6B4404ECEF205EDB702AD /* Pods-BMPickerModal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BMPickerModal_Example.modulemap"; sourceTree = "<group>"; };
+		495DBA3A51F635F43A07A43CA80D8900 /* BMPickerModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMPickerModal-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		671DDC8FDEE02511E63BA460E2D7D7FA /* BMPickerModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMPickerModal-prefix.pch"; sourceTree = "<group>"; };
+		687ADE4CDFEFE82C261D30AFBB1522DA /* BMPickerModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMPickerModal-umbrella.h"; sourceTree = "<group>"; };
 		7A62983B39F9CFA5B2842DB851449C3B /* Pods-BMPickerModal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMPickerModal_Example-resources.sh"; sourceTree = "<group>"; };
 		7F5F23B0FE1E25547943AB09D8924BF6 /* Pods-BMPickerModal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BMPickerModal_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7F71EA557B65BD246858C925AB378AF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		82538209052DAC159E9B15B2768413C7 /* Pods-BMPickerModal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BMPickerModal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		833AE87B9D283916291DA1ACCAD620D8 /* Pods-BMPickerModal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BMPickerModal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CE81B323F73371A1E1CE87A70248769 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3C84984AF6D29FF6DFE467FB27F1DF /* Pods-BMPickerModal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMPickerModal_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DEEA4896B61EAE118DE2914D077D73 /* BMPickerModal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMPickerModal.swift; path = BMPickerModal/Classes/BMPickerModal.swift; sourceTree = "<group>"; };
+		979F4ED38B8A6C1FF97CA5077AC92C8F /* BMPickerModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMPickerModal.xcconfig; sourceTree = "<group>"; };
+		9B39FF2645E37FA9E82A3CE7FB932903 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6ABB06C0B9A62D2D422AE801EF2666C /* Pods-BMPickerModal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BMPickerModal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB5B17DA7C9CA08CCE3FC3A835DBD403 /* BMPickerModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BMPickerModal.modulemap; sourceTree = "<group>"; };
 		AC2B2EB59F455D35F44B5EF3CE3AC6AC /* Pods-BMPickerModal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BMPickerModal_Tests-dummy.m"; sourceTree = "<group>"; };
-		AEA5549A54A5AD1E386C18800ECDEFEA /* BMPickerModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMPickerModal.xcconfig; sourceTree = "<group>"; };
 		B90CE08821C3A6C4CC5A476D0533F746 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA2473D63A0D7AB602BFBD9DEB0BB12D /* Pods-BMPickerModal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BMPickerModal_Tests.modulemap"; sourceTree = "<group>"; };
-		C320F2AAB1F38CA75B669E03060F22D7 /* Pods_BMPickerModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BMPickerModal_Example.framework; path = "Pods-BMPickerModal_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2473D63A0D7AB602BFBD9DEB0BB12D /* Pods-BMPickerModal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BMPickerModal_Tests.modulemap"; sourceTree = "<group>"; };
+		C320F2AAB1F38CA75B669E03060F22D7 /* Pods_BMPickerModal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMPickerModal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C339607A1C88C5CA84CF8BD13C40C861 /* Pods-BMPickerModal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMPickerModal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB418D8E9B1C60D755FA6627BA6C5232 /* Pods-BMPickerModal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BMPickerModal_Example-umbrella.h"; sourceTree = "<group>"; };
+		D433C1606169D177A276AEFF20AE126A /* BMPickerModal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BMPickerModal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7BF63BB638DE6B37ACE1EB1CE859E65 /* Pods-BMPickerModal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMPickerModal_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB75D39A323EBF249DB95A45238FB26C /* BMPickerModal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMPickerModal.swift; path = BMPickerModal/Classes/BMPickerModal.swift; sourceTree = "<group>"; };
 		E364D17A500BD451CB5BA505AAA90C4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9C2531B36BCF5E5EE1F888B028B9257 /* Pods-BMPickerModal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMPickerModal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F576CD2FE28041BE210C7BEE13074851 /* Pods-BMPickerModal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMPickerModal_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FF4589BD24EB14B714E2921AF3444864 /* BMPickerModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMPickerModal-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +113,39 @@
 			path = "Target Support Files/Pods-BMPickerModal_Tests";
 			sourceTree = "<group>";
 		};
-		37548919E509A742F9B81ED2D843FEF3 /* BMPickerModal */ = {
+		1D141F30BF04B730FBBB49EFC0AFE62F /* BMPickerModal */ = {
 			isa = PBXGroup;
 			children = (
-				DB75D39A323EBF249DB95A45238FB26C /* BMPickerModal.swift */,
-				6FCF7EF78605D06C0B8818BC2F352136 /* Support Files */,
+				93DEEA4896B61EAE118DE2914D077D73 /* BMPickerModal.swift */,
+				49CAE9FBB00A5DC00DE2C40DF2396D9F /* Pod */,
+				51F6628AE0F930E9DFD34CA5483F1671 /* Support Files */,
 			);
 			name = BMPickerModal;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		49CAE9FBB00A5DC00DE2C40DF2396D9F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D433C1606169D177A276AEFF20AE126A /* BMPickerModal.podspec */,
+				1F1087B737AE4AE172293C894F4950CE /* LICENSE */,
+				7F71EA557B65BD246858C925AB378AF6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		51F6628AE0F930E9DFD34CA5483F1671 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44F1F9508F06D9EB48B202E260E09232 /* BMPickerModal.modulemap */,
+				979F4ED38B8A6C1FF97CA5077AC92C8F /* BMPickerModal.xcconfig */,
+				FF4589BD24EB14B714E2921AF3444864 /* BMPickerModal-dummy.m */,
+				495DBA3A51F635F43A07A43CA80D8900 /* BMPickerModal-prefix.pch */,
+				687ADE4CDFEFE82C261D30AFBB1522DA /* BMPickerModal-umbrella.h */,
+				9B39FF2645E37FA9E82A3CE7FB932903 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BMPickerModal";
 			sourceTree = "<group>";
 		};
 		5DB2D033EA6ACBEDF6FD63CD982C3EA0 /* Targets Support Files */ = {
@@ -127,20 +155,6 @@
 				1947D8258B5EA5F100B9EAEA55BAEEAE /* Pods-BMPickerModal_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6FCF7EF78605D06C0B8818BC2F352136 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AB5B17DA7C9CA08CCE3FC3A835DBD403 /* BMPickerModal.modulemap */,
-				AEA5549A54A5AD1E386C18800ECDEFEA /* BMPickerModal.xcconfig */,
-				37A236A73B48FB0EFC83C9638B9E7E60 /* BMPickerModal-dummy.m */,
-				671DDC8FDEE02511E63BA460E2D7D7FA /* BMPickerModal-prefix.pch */,
-				009A5981A466A65DB26E27668EF65EAE /* BMPickerModal-umbrella.h */,
-				8CE81B323F73371A1E1CE87A70248769 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BMPickerModal";
 			sourceTree = "<group>";
 		};
 		7738619BBEEA7BC135152A713C9A930A /* Pods-BMPickerModal_Example */ = {
@@ -165,17 +179,17 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				856AA41749C2AECF363385EB30B0ADAE /* Development Pods */,
+				AD4FF01A66FC3F90B74D581DB1FF2A40 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F9C046AABA0B7F2F1818E9D62BEF66B3 /* Products */,
 				5DB2D033EA6ACBEDF6FD63CD982C3EA0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		856AA41749C2AECF363385EB30B0ADAE /* Development Pods */ = {
+		AD4FF01A66FC3F90B74D581DB1FF2A40 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				37548919E509A742F9B81ED2D843FEF3 /* BMPickerModal */,
+				1D141F30BF04B730FBBB49EFC0AFE62F /* BMPickerModal */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -390,7 +404,7 @@
 		};
 		38AC51584979BDFED85A749AC5B21548 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEA5549A54A5AD1E386C18800ECDEFEA /* BMPickerModal.xcconfig */;
+			baseConfigurationReference = 979F4ED38B8A6C1FF97CA5077AC92C8F /* BMPickerModal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -500,18 +514,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 		718125B7C0C13241CDBD8958169E19EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEA5549A54A5AD1E386C18800ECDEFEA /* BMPickerModal.xcconfig */;
+			baseConfigurationReference = 979F4ED38B8A6C1FF97CA5077AC92C8F /* BMPickerModal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -622,13 +637,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
